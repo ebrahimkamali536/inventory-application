@@ -1,10 +1,16 @@
-import React from 'react';
+import AddOrEditProduct from "./components/AddOrEditProduct";
+import Modal from "./components/Modal";
+import ProductList from "./components/ProductList";
+import ProductsContextProvider from "./context/ProductsContextProvider";
 
 const App = () => {
   return (
-    <div>
-      
-    </div>
+    <ProductsContextProvider>
+      <div className="mt-20">
+        <Modal />
+        <ProductList />
+      </div>
+    </ProductsContextProvider>
   );
 };
 
