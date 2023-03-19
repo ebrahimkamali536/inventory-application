@@ -17,6 +17,9 @@ module.exports = {
         inactive: "#666E7D",
         green: "#02A443",
         visited: "#000000",
+      },
+      borderRadius: {
+        md: "4px"
       }
     },
   },
